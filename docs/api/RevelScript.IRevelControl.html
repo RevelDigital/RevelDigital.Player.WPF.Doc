@@ -1,0 +1,1746 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface IRevelControl
+ | Revel Digital Player API for Windows WPF </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface IRevelControl
+ | Revel Digital Player API for Windows WPF ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/RevelDigital/RevelPlayer/new/1.7.27.0/apiSpec/new?filename=RevelScript_IRevelControl.md&amp;value=---%0Auid%3A%20RevelScript.IRevelControl%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="RevelScript.IRevelControl">
+
+
+
+  <h1 id="RevelScript_IRevelControl" data-uid="RevelScript.IRevelControl" class="text-break">
+    Interface IRevelControl
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L243"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="RevelScript.html">RevelScript</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>RevelScript.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Interfaces with a running template module or 'zone'. Represents the actual WPF control used to
+render to the module content.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IRevelControl</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="RevelScript_IRevelControl_AutoStart_" data-uid="RevelScript.IRevelControl.AutoStart*"></a>
+
+  <h3 id="RevelScript_IRevelControl_AutoStart" data-uid="RevelScript.IRevelControl.AutoStart">
+  AutoStart
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L319"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets a value indicating whether [auto start].
+Determines wether or not the module should start playing immediately after the template
+finishes loading.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool AutoStart { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><code>true</code> if [auto start]; otherwise, <code>false</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IRevelControl_Controller_" data-uid="RevelScript.IRevelControl.Controller*"></a>
+
+  <h3 id="RevelScript_IRevelControl_Controller" data-uid="RevelScript.IRevelControl.Controller">
+  Controller
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L270"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the controller.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IController Controller { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.IController.html">IController</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="RevelScript.IController.html">IController</a></div>
+    </dd>
+  </dl>
+
+
+  <a id="RevelScript_IRevelControl_IsPlaying_" data-uid="RevelScript.IRevelControl.IsPlaying*"></a>
+
+  <h3 id="RevelScript_IRevelControl_IsPlaying" data-uid="RevelScript.IRevelControl.IsPlaying">
+  IsPlaying
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L287"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a value indicating whether this instance is playing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsPlaying { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><code>true</code> if this instance is playing; otherwise, <code>false</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IRevelControl_Left_" data-uid="RevelScript.IRevelControl.Left*"></a>
+
+  <h3 id="RevelScript_IRevelControl_Left" data-uid="RevelScript.IRevelControl.Left">
+  Left
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L251"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the left position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double Left { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The left position.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IRevelControl_ModuleOptions_" data-uid="RevelScript.IRevelControl.ModuleOptions*"></a>
+
+  <h3 id="RevelScript_IRevelControl_ModuleOptions" data-uid="RevelScript.IRevelControl.ModuleOptions">
+  ModuleOptions
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L280"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the module options.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">List&lt;ModuleOption&gt; ModuleOptions { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="RevelScript.ModuleOption.html">ModuleOption</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="RevelScript.ModuleOption.html">ModuleOption</a></div>
+    </dd>
+  </dl>
+
+
+  <a id="RevelScript_IRevelControl_Name_" data-uid="RevelScript.IRevelControl.Name*"></a>
+
+  <h3 id="RevelScript_IRevelControl_Name" data-uid="RevelScript.IRevelControl.Name">
+  Name
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L305"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string Name { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IRevelControl_Playlist_" data-uid="RevelScript.IRevelControl.Playlist*"></a>
+
+  <h3 id="RevelScript_IRevelControl_Playlist" data-uid="RevelScript.IRevelControl.Playlist">
+  Playlist
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L275"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the playlist.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Playlist Playlist { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.Playlist.html">Playlist</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="RevelScript.IRevelControl.html#RevelScript_IRevelControl_Playlist">Playlist</a></div>
+    </dd>
+  </dl>
+
+
+  <a id="RevelScript_IRevelControl_Top_" data-uid="RevelScript.IRevelControl.Top*"></a>
+
+  <h3 id="RevelScript_IRevelControl_Top" data-uid="RevelScript.IRevelControl.Top">
+  Top
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L258"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the top position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double Top { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The top position.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IRevelControl_Type_" data-uid="RevelScript.IRevelControl.Type*"></a>
+
+  <h3 id="RevelScript_IRevelControl_Type" data-uid="RevelScript.IRevelControl.Type">
+  Type
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L310"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string Type { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="RevelScript.ModuleTypes.html">ModuleTypes</a></div>
+    </dd>
+  </dl>
+
+
+  <a id="RevelScript_IRevelControl_ZIndex_" data-uid="RevelScript.IRevelControl.ZIndex*"></a>
+
+  <h3 id="RevelScript_IRevelControl_ZIndex" data-uid="RevelScript.IRevelControl.ZIndex">
+  ZIndex
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L265"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the depth position index</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int ZIndex { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Depth position index.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="RevelScript_IRevelControl_FadeIn_" data-uid="RevelScript.IRevelControl.FadeIn*"></a>
+
+  <h3 id="RevelScript_IRevelControl_FadeIn" data-uid="RevelScript.IRevelControl.FadeIn">
+  FadeIn()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L355"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl FadeIn()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.IRevelControl.html">IRevelControl</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IRevelControl_FadeIn_" data-uid="RevelScript.IRevelControl.FadeIn*"></a>
+
+  <h3 id="RevelScript_IRevelControl_FadeIn_System_TimeSpan_" data-uid="RevelScript.IRevelControl.FadeIn(System.TimeSpan)">
+  FadeIn(TimeSpan)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L353"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl FadeIn(TimeSpan duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.IRevelControl.html">IRevelControl</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IRevelControl_FadeOut_" data-uid="RevelScript.IRevelControl.FadeOut*"></a>
+
+  <h3 id="RevelScript_IRevelControl_FadeOut" data-uid="RevelScript.IRevelControl.FadeOut">
+  FadeOut()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L359"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl FadeOut()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.IRevelControl.html">IRevelControl</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IRevelControl_FadeOut_" data-uid="RevelScript.IRevelControl.FadeOut*"></a>
+
+  <h3 id="RevelScript_IRevelControl_FadeOut_System_TimeSpan_" data-uid="RevelScript.IRevelControl.FadeOut(System.TimeSpan)">
+  FadeOut(TimeSpan)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L357"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl FadeOut(TimeSpan duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.IRevelControl.html">IRevelControl</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IRevelControl_Reload_" data-uid="RevelScript.IRevelControl.Reload*"></a>
+
+  <h3 id="RevelScript_IRevelControl_Reload" data-uid="RevelScript.IRevelControl.Reload">
+  Reload()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L301"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Reloads this instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Reload()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IRevelControl_Resize_" data-uid="RevelScript.IRevelControl.Resize*"></a>
+
+  <h3 id="RevelScript_IRevelControl_Resize_System_Double_System_Double_" data-uid="RevelScript.IRevelControl.Resize(System.Double,System.Double)">
+  Resize(double, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L399"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl Resize(double widthTo, double heightTo)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>widthTo</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>heightTo</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.IRevelControl.html">IRevelControl</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IRevelControl_Resize_" data-uid="RevelScript.IRevelControl.Resize*"></a>
+
+  <h3 id="RevelScript_IRevelControl_Resize_System_Double_System_Double_System_TimeSpan_" data-uid="RevelScript.IRevelControl.Resize(System.Double,System.Double,System.TimeSpan)">
+  Resize(double, double, TimeSpan)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L397"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl Resize(double widthTo, double heightTo, TimeSpan duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>widthTo</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>heightTo</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.IRevelControl.html">IRevelControl</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IRevelControl_ResizeHeight_" data-uid="RevelScript.IRevelControl.ResizeHeight*"></a>
+
+  <h3 id="RevelScript_IRevelControl_ResizeHeight_System_Double_" data-uid="RevelScript.IRevelControl.ResizeHeight(System.Double)">
+  ResizeHeight(double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L395"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl ResizeHeight(double to)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>to</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.IRevelControl.html">IRevelControl</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IRevelControl_ResizeHeight_" data-uid="RevelScript.IRevelControl.ResizeHeight*"></a>
+
+  <h3 id="RevelScript_IRevelControl_ResizeHeight_System_Double_System_Double_" data-uid="RevelScript.IRevelControl.ResizeHeight(System.Double,System.Double)">
+  ResizeHeight(double, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L391"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl ResizeHeight(double from, double to)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>from</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>to</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.IRevelControl.html">IRevelControl</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IRevelControl_ResizeHeight_" data-uid="RevelScript.IRevelControl.ResizeHeight*"></a>
+
+  <h3 id="RevelScript_IRevelControl_ResizeHeight_System_Double_System_Double_System_TimeSpan_" data-uid="RevelScript.IRevelControl.ResizeHeight(System.Double,System.Double,System.TimeSpan)">
+  ResizeHeight(double, double, TimeSpan)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L389"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl ResizeHeight(double from, double to, TimeSpan duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>from</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>to</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.IRevelControl.html">IRevelControl</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IRevelControl_ResizeHeight_" data-uid="RevelScript.IRevelControl.ResizeHeight*"></a>
+
+  <h3 id="RevelScript_IRevelControl_ResizeHeight_System_Double_System_TimeSpan_" data-uid="RevelScript.IRevelControl.ResizeHeight(System.Double,System.TimeSpan)">
+  ResizeHeight(double, TimeSpan)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L393"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl ResizeHeight(double to, TimeSpan duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>to</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.IRevelControl.html">IRevelControl</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IRevelControl_ResizeWidth_" data-uid="RevelScript.IRevelControl.ResizeWidth*"></a>
+
+  <h3 id="RevelScript_IRevelControl_ResizeWidth_System_Double_" data-uid="RevelScript.IRevelControl.ResizeWidth(System.Double)">
+  ResizeWidth(double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L387"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl ResizeWidth(double to)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>to</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.IRevelControl.html">IRevelControl</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IRevelControl_ResizeWidth_" data-uid="RevelScript.IRevelControl.ResizeWidth*"></a>
+
+  <h3 id="RevelScript_IRevelControl_ResizeWidth_System_Double_System_Double_" data-uid="RevelScript.IRevelControl.ResizeWidth(System.Double,System.Double)">
+  ResizeWidth(double, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L383"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl ResizeWidth(double from, double to)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>from</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>to</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.IRevelControl.html">IRevelControl</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IRevelControl_ResizeWidth_" data-uid="RevelScript.IRevelControl.ResizeWidth*"></a>
+
+  <h3 id="RevelScript_IRevelControl_ResizeWidth_System_Double_System_Double_System_TimeSpan_" data-uid="RevelScript.IRevelControl.ResizeWidth(System.Double,System.Double,System.TimeSpan)">
+  ResizeWidth(double, double, TimeSpan)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L381"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl ResizeWidth(double from, double to, TimeSpan duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>from</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>to</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.IRevelControl.html">IRevelControl</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IRevelControl_ResizeWidth_" data-uid="RevelScript.IRevelControl.ResizeWidth*"></a>
+
+  <h3 id="RevelScript_IRevelControl_ResizeWidth_System_Double_System_TimeSpan_" data-uid="RevelScript.IRevelControl.ResizeWidth(System.Double,System.TimeSpan)">
+  ResizeWidth(double, TimeSpan)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L385"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl ResizeWidth(double to, TimeSpan duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>to</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.IRevelControl.html">IRevelControl</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IRevelControl_Start_" data-uid="RevelScript.IRevelControl.Start*"></a>
+
+  <h3 id="RevelScript_IRevelControl_Start" data-uid="RevelScript.IRevelControl.Start">
+  Start()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L292"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Starts this instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool Start()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IRevelControl_Stop_" data-uid="RevelScript.IRevelControl.Stop*"></a>
+
+  <h3 id="RevelScript_IRevelControl_Stop" data-uid="RevelScript.IRevelControl.Stop">
+  Stop()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L297"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Stops this instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool Stop()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IRevelControl_Translate_" data-uid="RevelScript.IRevelControl.Translate*"></a>
+
+  <h3 id="RevelScript_IRevelControl_Translate_System_Double_System_Double_" data-uid="RevelScript.IRevelControl.Translate(System.Double,System.Double)">
+  Translate(double, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L379"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl Translate(double leftTo, double topTo)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>leftTo</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>topTo</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.IRevelControl.html">IRevelControl</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IRevelControl_Translate_" data-uid="RevelScript.IRevelControl.Translate*"></a>
+
+  <h3 id="RevelScript_IRevelControl_Translate_System_Double_System_Double_System_TimeSpan_" data-uid="RevelScript.IRevelControl.Translate(System.Double,System.Double,System.TimeSpan)">
+  Translate(double, double, TimeSpan)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L377"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl Translate(double leftTo, double topTo, TimeSpan duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>leftTo</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>topTo</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.IRevelControl.html">IRevelControl</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IRevelControl_TranslateLeft_" data-uid="RevelScript.IRevelControl.TranslateLeft*"></a>
+
+  <h3 id="RevelScript_IRevelControl_TranslateLeft_System_Double_" data-uid="RevelScript.IRevelControl.TranslateLeft(System.Double)">
+  TranslateLeft(double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L367"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl TranslateLeft(double to)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>to</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.IRevelControl.html">IRevelControl</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IRevelControl_TranslateLeft_" data-uid="RevelScript.IRevelControl.TranslateLeft*"></a>
+
+  <h3 id="RevelScript_IRevelControl_TranslateLeft_System_Double_System_Double_" data-uid="RevelScript.IRevelControl.TranslateLeft(System.Double,System.Double)">
+  TranslateLeft(double, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L363"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl TranslateLeft(double from, double to)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>from</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>to</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.IRevelControl.html">IRevelControl</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IRevelControl_TranslateLeft_" data-uid="RevelScript.IRevelControl.TranslateLeft*"></a>
+
+  <h3 id="RevelScript_IRevelControl_TranslateLeft_System_Double_System_Double_System_TimeSpan_" data-uid="RevelScript.IRevelControl.TranslateLeft(System.Double,System.Double,System.TimeSpan)">
+  TranslateLeft(double, double, TimeSpan)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L361"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl TranslateLeft(double from, double to, TimeSpan duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>from</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>to</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.IRevelControl.html">IRevelControl</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IRevelControl_TranslateLeft_" data-uid="RevelScript.IRevelControl.TranslateLeft*"></a>
+
+  <h3 id="RevelScript_IRevelControl_TranslateLeft_System_Double_System_TimeSpan_" data-uid="RevelScript.IRevelControl.TranslateLeft(System.Double,System.TimeSpan)">
+  TranslateLeft(double, TimeSpan)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L365"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl TranslateLeft(double to, TimeSpan duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>to</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.IRevelControl.html">IRevelControl</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IRevelControl_TranslateTop_" data-uid="RevelScript.IRevelControl.TranslateTop*"></a>
+
+  <h3 id="RevelScript_IRevelControl_TranslateTop_System_Double_" data-uid="RevelScript.IRevelControl.TranslateTop(System.Double)">
+  TranslateTop(double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L375"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl TranslateTop(double to)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>to</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.IRevelControl.html">IRevelControl</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IRevelControl_TranslateTop_" data-uid="RevelScript.IRevelControl.TranslateTop*"></a>
+
+  <h3 id="RevelScript_IRevelControl_TranslateTop_System_Double_System_Double_" data-uid="RevelScript.IRevelControl.TranslateTop(System.Double,System.Double)">
+  TranslateTop(double, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L371"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl TranslateTop(double from, double to)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>from</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>to</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.IRevelControl.html">IRevelControl</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IRevelControl_TranslateTop_" data-uid="RevelScript.IRevelControl.TranslateTop*"></a>
+
+  <h3 id="RevelScript_IRevelControl_TranslateTop_System_Double_System_Double_System_TimeSpan_" data-uid="RevelScript.IRevelControl.TranslateTop(System.Double,System.Double,System.TimeSpan)">
+  TranslateTop(double, double, TimeSpan)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L369"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl TranslateTop(double from, double to, TimeSpan duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>from</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>to</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.IRevelControl.html">IRevelControl</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IRevelControl_TranslateTop_" data-uid="RevelScript.IRevelControl.TranslateTop*"></a>
+
+  <h3 id="RevelScript_IRevelControl_TranslateTop_System_Double_System_TimeSpan_" data-uid="RevelScript.IRevelControl.TranslateTop(System.Double,System.TimeSpan)">
+  TranslateTop(double, TimeSpan)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L373"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IRevelControl TranslateTop(double to, TimeSpan duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>to</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.IRevelControl.html">IRevelControl</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="RevelScript_IRevelControl_FadeInCompleted" data-uid="RevelScript.IRevelControl.FadeInCompleted">
+  FadeInCompleted
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L331"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Occurs when the fade in animation has completed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event RoutedEventHandler FadeInCompleted</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.routedeventhandler">RoutedEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="RevelScript_IRevelControl_FadeOutCompleted" data-uid="RevelScript.IRevelControl.FadeOutCompleted">
+  FadeOutCompleted
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L335"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Occurs when the fade out animation has completed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event RoutedEventHandler FadeOutCompleted</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.routedeventhandler">RoutedEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="RevelScript_IRevelControl_Played" data-uid="RevelScript.IRevelControl.Played">
+  Played
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L327"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Occurs when a media source is played.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event PlayedRoutedEventHandler Played</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.PlayedRoutedEventHandler.html">PlayedRoutedEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="RevelScript_IRevelControl_Recreate" data-uid="RevelScript.IRevelControl.Recreate">
+  Recreate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L323"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Occurs when the control is recreated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event RoutedEventHandler Recreate</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.routedeventhandler">RoutedEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="RevelScript_IRevelControl_ResizeHeightCompleted" data-uid="RevelScript.IRevelControl.ResizeHeightCompleted">
+  ResizeHeightCompleted
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L351"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Occurs when the resize height animation has completed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event RoutedEventHandler ResizeHeightCompleted</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.routedeventhandler">RoutedEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="RevelScript_IRevelControl_ResizeWidthCompleted" data-uid="RevelScript.IRevelControl.ResizeWidthCompleted">
+  ResizeWidthCompleted
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L347"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Occurs when the resize width animation has completed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event RoutedEventHandler ResizeWidthCompleted</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.routedeventhandler">RoutedEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="RevelScript_IRevelControl_TranslateLeftCompleted" data-uid="RevelScript.IRevelControl.TranslateLeftCompleted">
+  TranslateLeftCompleted
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L343"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Occurs when the translate left animation has completed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event RoutedEventHandler TranslateLeftCompleted</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.routedeventhandler">RoutedEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="RevelScript_IRevelControl_TranslateTopCompleted" data-uid="RevelScript.IRevelControl.TranslateTopCompleted">
+  TranslateTopCompleted
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L339"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Occurs when the translate top animation has completed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event RoutedEventHandler TranslateTopCompleted</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.windows.routedeventhandler">RoutedEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L243" class="edit-link">Edit this page</a>
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

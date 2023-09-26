@@ -1,0 +1,529 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/mike_/Documents/GitHub/RevelDigital.Player.WPF.Doc",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.AIMQueryTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.AIMQueryTypes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.AIMViewerDetail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.AIMViewerDetail.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.CommandRoutedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.CommandRoutedEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.CommandRoutedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.CommandRoutedEventHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.Condition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.Condition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.DayOfWeek.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.DayOfWeek.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.Device.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.Device.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.DisplayMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.DisplayMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.FaceInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.FaceInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.File.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.File.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.Gadget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.Gadget.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.GadgetOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.GadgetOption.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.Gender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.Gender.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.IController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.IController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.IRevelControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.IRevelControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.ITemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.ITemplate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.IVistarMediaManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.IVistarMediaManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.ImpressionEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.ImpressionEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.ImpressionEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.ImpressionEventHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.InputDeviceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.InputDeviceType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.Location.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.Location.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.Module.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.Module.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.ModuleOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.ModuleOption.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.ModuleOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.ModuleOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.ModuleTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.ModuleTypes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.NavigationRoutedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.NavigationRoutedEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.NavigationRoutedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.NavigationRoutedEventHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.Orientation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.Orientation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.PlayedRoutedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.PlayedRoutedEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.PlayedRoutedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.PlayedRoutedEventHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.Playlist.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.Playlist.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.PlaylistTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.PlaylistTypes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.QueryAIMResponseEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.QueryAIMResponseEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.QueryAIMResponseEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.QueryAIMResponseEventHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.ScaleTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.ScaleTypes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.Schedule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.Schedule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.ShapeTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.ShapeTypes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.Source.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.Source.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.SourceEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.SourceEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.SourceTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.SourceTypes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.Template.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.Template.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.TemplateClickedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.TemplateClickedEventArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.TemplateClickedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.TemplateClickedEventHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.TransitionTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.TransitionTypes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.VideoFormatType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.VideoFormatType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RevelScript.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RevelScript.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

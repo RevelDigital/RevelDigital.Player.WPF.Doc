@@ -1,0 +1,1051 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface IController
+ | Revel Digital Player API for Windows WPF </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface IController
+ | Revel Digital Player API for Windows WPF ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/RevelDigital/RevelPlayer/new/1.7.27.0/apiSpec/new?filename=RevelScript_IController.md&amp;value=---%0Auid%3A%20RevelScript.IController%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="RevelScript.IController">
+
+
+
+  <h1 id="RevelScript_IController" data-uid="RevelScript.IController" class="text-break">
+    Interface IController
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="RevelScript.html">RevelScript</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>RevelScript.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Centralized hub for interfacing with the player. Used for accessing schedules, templates, modules, etc.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IController</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="RevelScript_IController_AIMHost_" data-uid="RevelScript.IController.AIMHost*"></a>
+
+  <h3 id="RevelScript_IController_AIMHost" data-uid="RevelScript.IController.AIMHost">
+  AIMHost
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the AIM host.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Uri AIMHost { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd><p>The AIM host address.
+Default value is http://localhost:12500.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IController_Device_" data-uid="RevelScript.IController.Device*"></a>
+
+  <h3 id="RevelScript_IController_Device" data-uid="RevelScript.IController.Device">
+  Device
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the device.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Device Device { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.Device.html">Device</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IController_DeviceKey_" data-uid="RevelScript.IController.DeviceKey*"></a>
+
+  <h3 id="RevelScript_IController_DeviceKey" data-uid="RevelScript.IController.DeviceKey">
+  DeviceKey
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the device key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Guid DeviceKey { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IController_HttpClient_" data-uid="RevelScript.IController.HttpClient*"></a>
+
+  <h3 id="RevelScript_IController_HttpClient" data-uid="RevelScript.IController.HttpClient">
+  HttpClient
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the http client for making web requests</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">HttpClient HttpClient { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpclient">HttpClient</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IController_Schedule_" data-uid="RevelScript.IController.Schedule*"></a>
+
+  <h3 id="RevelScript_IController_Schedule" data-uid="RevelScript.IController.Schedule">
+  Schedule
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the schedule.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Schedule Schedule { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.Schedule.html">Schedule</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IController_Template_" data-uid="RevelScript.IController.Template*"></a>
+
+  <h3 id="RevelScript_IController_Template" data-uid="RevelScript.IController.Template">
+  Template
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the currently loaded template.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ITemplate Template { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.ITemplate.html">ITemplate</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IController_VistarMediaManager_" data-uid="RevelScript.IController.VistarMediaManager*"></a>
+
+  <h3 id="RevelScript_IController_VistarMediaManager" data-uid="RevelScript.IController.VistarMediaManager">
+  VistarMediaManager
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the Vistar Media Manager</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IVistarMediaManager VistarMediaManager { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.IVistarMediaManager.html">IVistarMediaManager</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="RevelScript_IController_GetDeviceTime_" data-uid="RevelScript.IController.GetDeviceTime*"></a>
+
+  <h3 id="RevelScript_IController_GetDeviceTime" data-uid="RevelScript.IController.GetDeviceTime">
+  GetDeviceTime()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the current device time.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DateTime GetDeviceTime()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>DateTime</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IController_GetDeviceTime_" data-uid="RevelScript.IController.GetDeviceTime*"></a>
+
+  <h3 id="RevelScript_IController_GetDeviceTime_System_DateTime_" data-uid="RevelScript.IController.GetDeviceTime(System.DateTime)">
+  GetDeviceTime(DateTime)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Adjusts the supplied time to device time.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DateTime GetDeviceTime(DateTime dateTime)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>dateTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>The date time.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>DateTime</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IController_LogAffidavit_" data-uid="RevelScript.IController.LogAffidavit*"></a>
+
+  <h3 id="RevelScript_IController_LogAffidavit_RevelScript_Source_" data-uid="RevelScript.IController.LogAffidavit(RevelScript.Source)">
+  LogAffidavit(Source)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Appends a source to the affidavit log as played using the current timestamp.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LogAffidavit(Source source)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="RevelScript.Source.html">Source</a></dt>
+    <dd><p>The source.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IController_NewEventSession_" data-uid="RevelScript.IController.NewEventSession*"></a>
+
+  <h3 id="RevelScript_IController_NewEventSession_System_String_" data-uid="RevelScript.IController.NewEventSession(System.String)">
+  NewEventSession(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string NewEventSession(string sessionId = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IController_Print_" data-uid="RevelScript.IController.Print*"></a>
+
+  <h3 id="RevelScript_IController_Print_System_String_System_String_System_String_System_Uri_" data-uid="RevelScript.IController.Print(System.String,System.String,System.String,System.Uri)">
+  Print(string, string, string, Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Prints to the specified printer name using Google Cloud Print.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool Print(string printerName, string userName, string password, Uri documentUri)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>printerName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of the printer registered in Google Cloud Print.</p>
+</dd>
+    <dt><code>userName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Google account username.</p>
+</dd>
+    <dt><code>password</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Google account password.</p>
+</dd>
+    <dt><code>documentUri</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd><p>The document URI. Eg: file://c:\mydoc.pdf <a href="http://www.example.org/test.png">http://www.example.org/test.png</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Bool indicating success of print job submission</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IController_QueryAIM_" data-uid="RevelScript.IController.QueryAIM*"></a>
+
+  <h3 id="RevelScript_IController_QueryAIM_RevelScript_AIMQueryTypes_" data-uid="RevelScript.IController.QueryAIM(RevelScript.AIMQueryTypes)">
+  QueryAIM(AIMQueryTypes)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Queries the AIM server.
+AIMHost property must be set before calling this method to use a non-default AIM host.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void QueryAIM(AIMQueryTypes queryType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>queryType</code> <a class="xref" href="RevelScript.AIMQueryTypes.html">AIMQueryTypes</a></dt>
+    <dd><p>Type of the query.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IController_SendCommand_" data-uid="RevelScript.IController.SendCommand*"></a>
+
+  <h3 id="RevelScript_IController_SendCommand_System_String_System_String_System_Int32_" data-uid="RevelScript.IController.SendCommand(System.String,System.String,System.Int32)">
+  SendCommand(string, string, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sends a command to the Controller. All registered command listeners will also receive the command.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SendCommand(string cmd, string arg, int delay = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cmd</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The command name.</p>
+</dd>
+    <dt><code>arg</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The command argument.</p>
+</dd>
+    <dt><code>delay</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Postpone the command for [delay] seconds.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IController_Shutdown_" data-uid="RevelScript.IController.Shutdown*"></a>
+
+  <h3 id="RevelScript_IController_Shutdown" data-uid="RevelScript.IController.Shutdown">
+  Shutdown()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Shuts down the player and exits to the desktop.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Shutdown()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IController_TimeEvent_" data-uid="RevelScript.IController.TimeEvent*"></a>
+
+  <h3 id="RevelScript_IController_TimeEvent_System_String_" data-uid="RevelScript.IController.TimeEvent(System.String)">
+  TimeEvent(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void TimeEvent(string eventName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>eventName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IController_Track_" data-uid="RevelScript.IController.Track*"></a>
+
+  <h3 id="RevelScript_IController_Track_System_String_" data-uid="RevelScript.IController.Track(System.String)">
+  Track(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Track(string eventName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>eventName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="RevelScript_IController_Track_" data-uid="RevelScript.IController.Track*"></a>
+
+  <h3 id="RevelScript_IController_Track_System_String_System_Collections_Generic_IDictionary_System_String_System_Object__" data-uid="RevelScript.IController.Track(System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
+  Track(string, IDictionary&lt;string, object&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Track(string eventName, IDictionary&lt;string, object&gt; properties)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>eventName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>properties</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="RevelScript_IController_Command" data-uid="RevelScript.IController.Command">
+  Command
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Occurs when a command is received.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event CommandRoutedEventHandler Command</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.CommandRoutedEventHandler.html">CommandRoutedEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="RevelScript_IController_Navigation" data-uid="RevelScript.IController.Navigation">
+  Navigation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L137"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Occurs when a web zone begins navigation to a new url.
+Can be used to inspect and cancel the request.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event NavigationRoutedEventHandler Navigation</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.NavigationRoutedEventHandler.html">NavigationRoutedEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="RevelScript_IController_Played" data-uid="RevelScript.IController.Played">
+  Played
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Occurs when a media item is played.</p>
+<p>This is a global handler for all media within the current template.
+Set the <pre><code class="lang-csharp">Handled</code></pre> property of the event <pre><code class="lang-csharp">True</code></pre>
+to prevent the media item from being counted in the affidavit log or from being
+handled by module specific <pre><code class="lang-csharp">Played</code></pre> handlers.
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event PlayedRoutedEventHandler Played</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.PlayedRoutedEventHandler.html">PlayedRoutedEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="RevelScript_IController_QueryAIMResponse" data-uid="RevelScript.IController.QueryAIMResponse">
+  QueryAIMResponse
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L117"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Occurs when [query AIM response].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event QueryAIMResponseEventHandler QueryAIMResponse</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.QueryAIMResponseEventHandler.html">QueryAIMResponseEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="RevelScript_IController_TemplateClicked" data-uid="RevelScript.IController.TemplateClicked">
+  TemplateClicked
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Occurs when [template clicked].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event TemplateClickedEventHandler TemplateClicked</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.TemplateClickedEventHandler.html">TemplateClickedEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="RevelScript_IController_TemplateInitialized" data-uid="RevelScript.IController.TemplateInitialized">
+  TemplateInitialized
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Occurs when [template initialized].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler TemplateInitialized</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="RevelScript_IController_TemplateResumed" data-uid="RevelScript.IController.TemplateResumed">
+  TemplateResumed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Occurs when [template resumed].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler TemplateResumed</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="RevelScript_IController_TemplateSuspended" data-uid="RevelScript.IController.TemplateSuspended">
+  TemplateSuspended
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Occurs when [template suspended].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler TemplateSuspended</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="RevelScript_IController_TemplateTerminated" data-uid="RevelScript.IController.TemplateTerminated">
+  TemplateTerminated
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L109"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Occurs when [template terminated].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler TemplateTerminated</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Interfaces.cs/#L11" class="edit-link">Edit this page</a>
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

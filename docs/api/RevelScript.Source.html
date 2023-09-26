@@ -1,0 +1,795 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Source
+ | Revel Digital Player API for Windows WPF </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Source
+ | Revel Digital Player API for Windows WPF ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/RevelDigital/RevelPlayer/new/1.7.27.0/apiSpec/new?filename=RevelScript_Source.md&amp;value=---%0Auid%3A%20RevelScript.Source%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="RevelScript.Source">
+
+
+
+  <h1 id="RevelScript_Source" data-uid="RevelScript.Source" class="text-break">
+    Class Source
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Playlist.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="RevelScript.html">RevelScript</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>RevelScript.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>A source represents a single playlist entity which has a specified position and duration in the playlist.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Source</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Source</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="RevelScript_Source_Conditions_" data-uid="RevelScript.Source.Conditions*"></a>
+
+  <h3 id="RevelScript_Source_Conditions" data-uid="RevelScript.Source.Conditions">
+  Conditions
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Playlist.cs/#L259"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Smart schedule conditions</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Condition&gt; Conditions { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="RevelScript.Condition.html">Condition</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="RevelScript.SourceTypes.html">SourceTypes</a></div>
+    </dd>
+  </dl>
+
+
+  <a id="RevelScript_Source_EndDate_" data-uid="RevelScript.Source.EndDate*"></a>
+
+  <h3 id="RevelScript_Source_EndDate" data-uid="RevelScript.Source.EndDate">
+  EndDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Playlist.cs/#L215"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the end date.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime? EndDate { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="RevelScript.SourceTypes.html">SourceTypes</a></div>
+    </dd>
+  </dl>
+
+
+  <a id="RevelScript_Source_File_" data-uid="RevelScript.Source.File*"></a>
+
+  <h3 id="RevelScript_Source_File" data-uid="RevelScript.Source.File">
+  File
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Playlist.cs/#L255"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the file.</p>
+<p>This is the physical file assigned to this source, if available</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public File File { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.File.html">File</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="RevelScript.SourceTypes.html">SourceTypes</a></div>
+    </dd>
+  </dl>
+
+
+  <a id="RevelScript_Source_FileId_" data-uid="RevelScript.Source.FileId*"></a>
+
+  <h3 id="RevelScript_Source_FileId" data-uid="RevelScript.Source.FileId">
+  FileId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Playlist.cs/#L203"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the file id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? FileId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="RevelScript.SourceTypes.html">SourceTypes</a></div>
+    </dd>
+  </dl>
+
+
+  <a id="RevelScript_Source_Filename_" data-uid="RevelScript.Source.Filename*"></a>
+
+  <h3 id="RevelScript_Source_Filename" data-uid="RevelScript.Source.Filename">
+  Filename
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Playlist.cs/#L225"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the filename.</p>
+<p>This is the physical path to the file on the player.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Filename { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="RevelScript.SourceTypes.html">SourceTypes</a></div>
+    </dd>
+  </dl>
+
+
+  <a id="RevelScript_Source_FlashVars_" data-uid="RevelScript.Source.FlashVars*"></a>
+
+  <h3 id="RevelScript_Source_FlashVars" data-uid="RevelScript.Source.FlashVars">
+  FlashVars
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Playlist.cs/#L249"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the flash vars.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string FlashVars { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="RevelScript.SourceTypes.html">SourceTypes</a></div>
+    </dd>
+  </dl>
+
+
+  <a id="RevelScript_Source_Id_" data-uid="RevelScript.Source.Id*"></a>
+
+  <h3 id="RevelScript_Source_Id" data-uid="RevelScript.Source.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Playlist.cs/#L183"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Guid Id { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="RevelScript.SourceTypes.html">SourceTypes</a></div>
+    </dd>
+  </dl>
+
+
+  <a id="RevelScript_Source_Interval_" data-uid="RevelScript.Source.Interval*"></a>
+
+  <h3 id="RevelScript_Source_Interval" data-uid="RevelScript.Source.Interval">
+  Interval
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Playlist.cs/#L219"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the interval in seconds.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? Interval { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="RevelScript.SourceTypes.html">SourceTypes</a></div>
+    </dd>
+  </dl>
+
+
+  <a id="RevelScript_Source_Name_" data-uid="RevelScript.Source.Name*"></a>
+
+  <h3 id="RevelScript_Source_Name" data-uid="RevelScript.Source.Name">
+  Name
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Playlist.cs/#L187"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Name { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="RevelScript.SourceTypes.html">SourceTypes</a></div>
+    </dd>
+  </dl>
+
+
+  <a id="RevelScript_Source_Sequence_" data-uid="RevelScript.Source.Sequence*"></a>
+
+  <h3 id="RevelScript_Source_Sequence" data-uid="RevelScript.Source.Sequence">
+  Sequence
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Playlist.cs/#L195"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the sequence.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Sequence { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="RevelScript.SourceTypes.html">SourceTypes</a></div>
+    </dd>
+  </dl>
+
+
+  <a id="RevelScript_Source_StartDate_" data-uid="RevelScript.Source.StartDate*"></a>
+
+  <h3 id="RevelScript_Source_StartDate" data-uid="RevelScript.Source.StartDate">
+  StartDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Playlist.cs/#L211"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the start date.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime? StartDate { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="RevelScript.SourceTypes.html">SourceTypes</a></div>
+    </dd>
+  </dl>
+
+
+  <a id="RevelScript_Source_Template_" data-uid="RevelScript.Source.Template*"></a>
+
+  <h3 id="RevelScript_Source_Template" data-uid="RevelScript.Source.Template">
+  Template
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Playlist.cs/#L263"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Template embedded in playlist</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Template Template { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="RevelScript.Template.html">Template</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="RevelScript.SourceTypes.html">SourceTypes</a></div>
+    </dd>
+  </dl>
+
+
+  <a id="RevelScript_Source_Timestamp_" data-uid="RevelScript.Source.Timestamp*"></a>
+
+  <h3 id="RevelScript_Source_Timestamp" data-uid="RevelScript.Source.Timestamp">
+  Timestamp
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Playlist.cs/#L207"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the timestamp.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime Timestamp { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="RevelScript.SourceTypes.html">SourceTypes</a></div>
+    </dd>
+  </dl>
+
+
+  <a id="RevelScript_Source_Type_" data-uid="RevelScript.Source.Type*"></a>
+
+  <h3 id="RevelScript_Source_Type" data-uid="RevelScript.Source.Type">
+  Type
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Playlist.cs/#L191"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Type { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="RevelScript.SourceTypes.html">SourceTypes</a></div>
+    </dd>
+  </dl>
+
+
+  <a id="RevelScript_Source_Uri_" data-uid="RevelScript.Source.Uri*"></a>
+
+  <h3 id="RevelScript_Source_Uri" data-uid="RevelScript.Source.Uri">
+  Uri
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Playlist.cs/#L235"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the URI representation of the source location</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Uri Uri { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="RevelScript.SourceTypes.html">SourceTypes</a></div>
+    </dd>
+  </dl>
+
+
+  <a id="RevelScript_Source_Value_" data-uid="RevelScript.Source.Value*"></a>
+
+  <h3 id="RevelScript_Source_Value" data-uid="RevelScript.Source.Value">
+  Value
+  <a class="header-action link-secondary" title="View source" href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Playlist.cs/#L199"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Value { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="RevelScript.SourceTypes.html">SourceTypes</a></div>
+    </dd>
+  </dl>
+
+
+  <h2 id="seealso">See Also</h2>
+  <div class="seealso">
+      <div><a class="xref" href="RevelScript.SourceTypes.html">SourceTypes</a></div>
+  </div>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/RevelDigital/RevelPlayer/blob/1.7.27.0/RevelScript/Playlist.cs/#L178" class="edit-link">Edit this page</a>
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
